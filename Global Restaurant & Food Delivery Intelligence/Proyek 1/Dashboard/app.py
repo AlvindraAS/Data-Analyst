@@ -129,7 +129,9 @@ st.markdown("""
 # ------------------------------------------------------------------------------
 # 2. INGESTION PIPELINE: LOAD ALL PRE-COMPUTED DATA MARTS
 # ------------------------------------------------------------------------------
-DATA_PATH = "D:\Data Analyst\Global Restaurant & Food Delivery Intelligence\Proyek 1\Output"
+# Dynamic relative path detection (works locally and on Streamlit Cloud)
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_PATH = os.path.abspath(os.path.join(BASE_DIR, "..", "Output"))
 
 @st.cache_data(show_spinner=True)
 def load_all_data_marts(path=DATA_PATH):
