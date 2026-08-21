@@ -345,7 +345,7 @@ Kategori kuliner autentik spesifik (seperti *Thai & Japanese* di kota-kota Ameri
 
 ## 🖥️ Link Dashboard Publik
 
-Akses dashboard pada peramban Anda melalui URL: `[Tambahkan Link Streamlit Cloud/Hosting Anda Di Sini]`
+Akses dashboard pada peramban Anda melalui URL: `https://data-analyst-o4aks8dwdudf6v4fy47rtg.streamlit.app/`
 
 ---
 
